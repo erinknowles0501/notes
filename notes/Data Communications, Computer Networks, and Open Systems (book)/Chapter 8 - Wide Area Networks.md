@@ -41,9 +41,50 @@ At the lowest layer (physical - DCE to DTE), the interface standard is called X.
 
 ##### 8.2.1 Physical layer
 The DCE is analogous to a synchronous modem (for telephones), since its function is to provide a full-duplex, bit-serial, synchronous transmission path between the DTE and the local PSE. It can operate at data rates between 600bps and 64kbps.
+Figure 8.6 (page 431) titled X.21 physical layer interface circuits:
+```
+<--------- Subscriber's premises --------> <-------- PSPDN -------->
+     |  Transmit (T) >            |       |
+     |  Control (C) >             |       | 
+DTE  |  < Receive (R)             |  DCE  | <- -> PSE <-> other PSEs
+     |  < Indication (I)          |       |
+     |  < Signal (bit) timing (S) |       |
+```
 
 ##### 8.2.2 Link layer
-The aim of this layer is to provide the packet layer with a reliable (error free and no duplicates) packet transport facility across the physical link between the DTE and the local PSE.
+The aim of this layer is to provide the packet layer with a reliable (error free and no duplicates) packet transport facility across the physical link between the DTE and the local PSE. Link layer has no knowledge of the logical channel to which a packet may belong - this is known only by the packet layer. Therefore, the error+flow control procedures used by the link layer apply to all packets irrespective of the virtual circuits to which they belong.
+The frame structure and error+flow control procedures used by link layer are based on HDLC protocol (see chapter 5 for basics of HDLC).
+
+The services provided by the link later to the network (packet) layer are summarized in Figure 8.7a (page 432, titled Link layer summary):  [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp1kt9vgjAQx_-Vpk8uqUvoIzFL8McSF2QE3FsT7WgZzaB1pcQY9X9fEVDnoA-XtnfX732ud4SJYhy6MM3VPsmoNmC6JhLYVVafX5ruMqAkb24CZxRws1f6G-T0wPUTGI9fwInArb-ZvQfBYrZ-Bpr_VLw0qEmpl7-Ze2tvwLOMHzO3BJ6A74x8ITsdIpsc3-lTTJRMhS56FIVkIqFGKDko2iZfRAOniWps6IzC7FDaB_IOd1Kr-20Ul6yr69oq25y2VXi4VZfa_sDiXljcB3uH1NbZA3vz3JHe_A0s7oRCPACK_4HaD5h0RcXedIXAh4dArWKtPb1Gq6hTXyIQ2UMU1GbxhkBsbct7lW7fCzFEsOC6oILZYTzWXgJNxgtOoGu3jKe0yg2BRJ5tKK2Mig8yga7RFUew2jFq-FxQ-w0FdFOal_aWM2GUXjUDfpnz8y_WyN71)
+```mermaid
+flowchart BT
+    subgraph one
+	    N1(Network layer) --> |"`L_CONNECT. request,
+	        L_DATA. request,
+	        L_DISCONNECT. request`"| L1(Link layer)
+	
+	    L1 --> |"`L_CONNECT. confirm,
+	        L_DATA. indication,
+	        L_DISCONNECT. confirm`"| N1
+	
+	    P1(Physical layer) <--> L1
+    end
+
+    subgraph two
+	    N2(Network layer) --> |"`L_DATA.request`"| L2(Link layer)
+	
+	    L2 --> |"`L_CONNECT. indication,
+	    L_DATA. indication,
+	    L_DISCONNECT. indication`"| N2
+	
+	    P2(Physical layer) <--> L2
+    end
+
+    L1 <--> |"`SABM, UA, DISC, DM, FRMR,
+	    I, RR, RNR, REJ, SREJ`"| L2
+
+    P1 <--> P2
+```
 
 
 ## Specifics

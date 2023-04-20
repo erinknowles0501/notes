@@ -1,0 +1,1 @@
+Important get-up-and-running info about the various technologies I touch. Helpful in interviews, especially if it's been a year or so since I've used something.

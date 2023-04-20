@@ -14,6 +14,9 @@ Data Terminal Equipment - i.e., a computer or other thing at the receiving 'end'
 ### PDN
 Public Data Network - established and operated by a (national) administration authority specifically for the transmission of data.
 
+### PDU
+Protocol Data Unit
+
 ### PSTN
 Public Switched Telephone Network
 
