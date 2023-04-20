@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "5b2b0118f74fafd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "85fbeb5cf3deccb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b3c846ece48a369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15c3e4f11174bc63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "862a3a3e3e85a356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/Abbreviations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c45e34d941a7451",
+    "type": "split",
+    "children": [
+      {
+        "id": "35edef7e73b946c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a77f69d3aec13771",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2772265c5219b62c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de9b6681e9773dec",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c057b2d927cb022",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf11dde8031ba689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da36db6d1c53a1a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df9a29edc754367a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce259e905bf2ce40",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0f91854803d97c38",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4b3c846ece48a369",
+  "lastOpenFiles": [
+    "Data Communications, Computer Networks, and Open Systems (book)/Abbreviations.md",
+    "Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+    "Data Communications, Computer Networks, and Open Systems (book)/TODO.md",
+    "Data Communications, Computer Networks, and Open Systems (book)/Chapter 9 - Internetworking.md",
+    "2023-04-19.md"
+  ]
+}
