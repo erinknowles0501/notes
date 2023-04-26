@@ -1,1 +1,1 @@
-Important get-up-and-running info about the various technologies I touch. Helpful in interviews, especially if it's been a year or so since I've used something.
+Important get-up-and-running info about the various technologies I touch. Helpful in interviews, especially if it's been a year or more since I've used something. The purpose of this section is not to learn, but to reflect what I already know - anything written here is first-hand experience.

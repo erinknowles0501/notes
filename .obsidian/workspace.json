@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "file": "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 2 - The Electrical Interface.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df663e85bb16a84b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat sheets/Vue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b171720d199623a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat sheets/Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "file": "Cheat sheets/Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+                "file": "Cheat sheets/Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,16 +174,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md"
+                "file": "Cheat sheets/Vue.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,13 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54dffcdc2780493b",
+  "active": "b171720d199623a6",
   "lastOpenFiles": [
+    "Cheat sheets/React.md",
+    "Cheat sheets/README.md",
+    "Cheat sheets/Vue.md",
+    "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 2 - The Electrical Interface.md",
     "notes/Data Communications, Computer Networks, and Open Systems (book)/Abbreviations.md",
     "notes/Data Communications, Computer Networks, and Open Systems (book)/Chapter 8 - Wide Area Networks.md",
+    "^1.md",
     "notes/TODO.md",
     "Forays/SSH.md",
-    "Cheat sheets/README.md",
     "notes",
     "Cheat sheets",
     "Forays",
